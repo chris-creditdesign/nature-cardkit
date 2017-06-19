@@ -33,7 +33,7 @@ module.exports = {
     name: 'Main text',
     type: 'text',
     text: '"Welcome to the Nature\nsocial media image generator,\nplease upload an image and\ncustomise the design."',
-    fontSize: 46,
+    fontSize: 60,
     fontFamily: 'GlosaMath-Roman, Georgia, Times, \"Times New Roman\", serif',
     get lineHeight() {
       return this.fontSize * 1.2;
@@ -47,7 +47,7 @@ module.exports = {
       textAnchor: true,
       fontSize: {
         min: 36,
-        max: 72,
+        max: 90,
         step: 1
       },
       fill: true
@@ -57,7 +57,7 @@ module.exports = {
     name: 'url',
     type: 'text',
     text: 'bit.ly/xyxyxy',
-    fontSize: 26,
+    fontSize: 36,
     fontFamily: 'NewsGothicMTOT-Regular, Helvetica, sans-serif',
     editable: {
       text: true,
@@ -68,7 +68,7 @@ module.exports = {
     name: 'credit on bottom',
     type: 'text',
     text: 'Image credit:',
-    fontSize: 18,
+    fontSize: 24,
     fontFamily: 'NewsGothicMTOT-Regular, Helvetica, sans-serif',
     editable: {
       text: true,
@@ -79,9 +79,9 @@ module.exports = {
     name: 'credit on side',
     type: 'text',
     text: 'Image credit:',
-    fontSize: 18,
+    fontSize: 24,
     fontFamily: 'NewsGothicMTOT-Regular, Helvetica, sans-serif',
-    transform: 'rotate(90,0,0) translate(20,-30)',
+    transform: 'rotate(90,0,0) translate(20,-40)',
     editable: {
       text: true,
       fill: true
