@@ -49,7 +49,8 @@ module.exports = {
         min: 36,
         max: 72,
         step: 1
-      }
+      },
+      fill: true
     }
   },
   url: {
@@ -59,7 +60,8 @@ module.exports = {
     fontSize: 26,
     fontFamily: 'NewsGothicMTOT-Regular, Helvetica, sans-serif',
     editable: {
-      text: true
+      text: true,
+      fill: true
     }
   },
   credit: {
@@ -70,7 +72,7 @@ module.exports = {
     fontFamily: 'NewsGothicMTOT-Regular, Helvetica, sans-serif',
     editable: {
       text: true,
-      fill: true
+      fill: true,
     }
   },
   creditSide: {
@@ -81,7 +83,8 @@ module.exports = {
     fontFamily: 'NewsGothicMTOT-Regular, Helvetica, sans-serif',
     transform: 'rotate(90,0,0) translate(20,-30)',
     editable: {
-      text: true
+      text: true,
+      fill: true
     }
   },
   circleLogo: {
