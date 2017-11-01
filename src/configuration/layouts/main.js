@@ -12,14 +12,19 @@ var twitterCard = {
   marginSide: 30
 };
 
-var natureLogo = {
-  width: 180,
-  height: 40
-}
-
 var circleLogo = {
   width: 90,
   height: 90
+}
+
+var natureLogo = {
+  width: 180,
+  height: 35
+}
+
+var futuresLogo = {
+  width: 150,
+  height: 145
 }
 
 var twitterCreditLeft = {
@@ -27,7 +32,7 @@ var twitterCreditLeft = {
   layers: {
     headline: {
       x: twitterCard.width / 2,
-      y: twitterCard.height * 0.3
+      y: twitterCard.height * 0.25
     },
     url: {
       textAnchor: 'end',
@@ -44,6 +49,9 @@ var twitterCreditLeft = {
     },
     natureLogo: {
       transform: `translate(${twitterCard.marginSide}, ${twitterCard.height - twitterCard.marginTop - natureLogo.height })`
+    },
+    futuresLogo: {
+      transform: `translate(${twitterCard.marginSide}, ${twitterCard.height - twitterCard.marginTop - futuresLogo.height })`
     }
   }
 };
@@ -70,6 +78,9 @@ var instagramCreditLeft = {
     },
     natureLogo: {
       transform: `translate(${instagramCard.marginSide}, ${instagramCard.height - instagramCard.marginTop - natureLogo.height })`
+    },
+    futuresLogo: {
+      transform: `translate(${instagramCard.marginSide}, ${instagramCard.height - instagramCard.marginTop - futuresLogo.height })`
     }
   }
 };

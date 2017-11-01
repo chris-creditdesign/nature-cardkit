@@ -36,6 +36,9 @@ fillColours.forEach( (object, index, array) => {
   themes[object.name].layers.natureLogo = {};
   themes[object.name].layers.natureLogo.fill = object.dark ? '#EEEEEE' : '#333333';
 
+  themes[object.name].layers.futuresLogo = {};
+  themes[object.name].layers.futuresLogo.fill = object.dark ? '#EEEEEE' : '#333333';
+
   themes[object.name].layers.url = {};
   themes[object.name].layers.url.fill = object.dark ? '#EEEEEE' : '#333333';
 
