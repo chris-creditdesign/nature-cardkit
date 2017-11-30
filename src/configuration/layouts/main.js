@@ -8,7 +8,7 @@ var instagramCard = {
 var twitterCard = {
   width: 1066,
   height: 600,
-  marginTop: 40,
+  marginTop: 60,
   marginSide: 30
 };
 
