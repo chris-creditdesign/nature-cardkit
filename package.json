@@ -13,6 +13,7 @@
 		"@babel/core": "^7.6.2",
 		"@babel/preset-env": "^7.6.2",
 		"babel-loader": "^8.0.6",
+		"deep-extend": "^0.6.0",
 		"minimist": "^1.2.0",
 		"svg-inline-loader": "^0.7.1",
 		"uglifyjs-webpack-plugin": "^2.2.0",
@@ -21,8 +22,8 @@
 	},
 	"dependencies": {
 		"cardkit": "github:chris-creditdesign/cardkit",
-		"react": "^15.3.2",
-		"react-dom": "^15.3.2",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
 		"webpack": "^4.41.0",
 		"webpack-merge": "^4.2.2"
 	}
