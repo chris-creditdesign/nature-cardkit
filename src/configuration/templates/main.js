@@ -18,6 +18,9 @@ module.exports = {
 			circleLogo: {
 				hidden: true,
 			},
+			natureLogo: {
+				hidden: false,
+			},
 			credit: {
 				hidden: true,
 			}
@@ -41,6 +44,9 @@ module.exports = {
 			},
 			circleLogo: {
 				hidden: false,
+			},
+			natureLogo: {
+				hidden: true,
 			},
 			credit: {
 				hidden: false,

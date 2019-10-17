@@ -29,6 +29,11 @@ fillColours.forEach((object, index, array) => {
 		? white
 		: black
 
+	themes[object.name].layers.natureLogo = {}
+	themes[object.name].layers.natureLogo.fill = object.dark
+		? white
+		: black
+
 	themes[object.name].layers.credit = {}
 	themes[object.name].layers.credit.fill = object.dark
 		? white
