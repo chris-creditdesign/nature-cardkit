@@ -94,7 +94,7 @@ module.exports = {
 	credit: {
 		name: "credit on bottom",
 		type: "text",
-		text: "",
+		text: "Lorem Ipsum",
 		fontSize: 24,
 		fontFamily: "HardingText-Regular-Web",
 		textAnchor: "start",
