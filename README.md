@@ -1,4 +1,4 @@
-# nature-cardkit
+# Nature Cardkit
 
 > Custom [cardkit](https://times.github.io/cardkit/) configuration for @naturenews
 
@@ -15,7 +15,7 @@ Hosted online as a github page here: https://springernature.github.io/nrg-cardki
 - Clone this repo
 - Install dependencies: `$ npm install`
 
-- Run locally: `$ npm start`
+- Run locally: `$ npm run dev`
 - Build for distribution: `$ npm run dist`
 
 ### Development
