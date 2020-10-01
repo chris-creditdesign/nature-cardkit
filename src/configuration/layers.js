@@ -124,5 +124,80 @@ module.exports = {
 		type: "line",
 		stroke: "#ffffff",
 		strokeWidth: "2px",
-	}
+	},
+	nobelHeadline: {
+		name: "Nobel headline",
+		type: "text",
+		text:
+			'2020 Nobel Prize in XXXXX',
+		fontSize: 72,
+		fontFamily:
+			"HardingText-Regular-Web",
+		get lineHeight() {
+			return this.fontSize * 1.1
+		},
+		textAnchor: "left",
+		smartQuotes: true,
+		useAsFilename: true,
+		draggable: false,
+		letterSpacing: "-0.02em",
+		editable: {
+			text: true,
+			fontSize: {
+				min: 50,
+				max: 90,
+				step: 1,
+			},
+		},
+	},
+	nobelWinners: {
+		name: "Nobel winners",
+		type: "text",
+		text:
+			'Winner Name & Winner Name &\nWinner Name & Winner Name',
+		fontSize: 44,
+		fontFamily:
+			"HardingText-Regular-Web",
+		get lineHeight() {
+			return this.fontSize * 1.1
+		},
+		textAnchor: "left",
+		smartQuotes: true,
+		useAsFilename: true,
+		draggable: false,
+		letterSpacing: "-0.02em",
+		editable: {
+			text: true,
+			fontSize: {
+				min: 30,
+				max: 60,
+				step: 1,
+			},
+		},
+	},
+	nobelQuote: {
+		name: "Nobel quote",
+		type: "text",
+		text:
+			'"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"',
+		fontSize: 24,
+		fontFamily:
+			"GraphikNature-Regular-Web",
+		get lineHeight() {
+			return this.fontSize * 1.1
+		},
+		textAnchor: "left",
+		smartQuotes: true,
+		useAsFilename: true,
+		draggable: false,
+		// letterSpacing: "-0.02em",
+		editable: {
+			text: true,
+			fontSize: {
+				min: 18,
+				max: 36,
+				step: 1,
+			},
+		},
+	},
 }

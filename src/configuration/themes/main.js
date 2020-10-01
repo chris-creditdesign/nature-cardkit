@@ -19,6 +19,7 @@ fillColours.forEach((object, index, array) => {
 	themes[object.name].card.fill = object.hex
 
 	themes[object.name].layers = {}
+
 	themes[object.name].layers.headline = {}
 	themes[object.name].layers.headline.fill = object.dark
 		? white
@@ -44,7 +45,20 @@ fillColours.forEach((object, index, array) => {
 		? white
 		: black
 
+	themes[object.name].layers.nobelHeadline = {}
+	themes[object.name].layers.nobelHeadline.fill = object.dark
+		? white
+		: black
 
+	themes[object.name].layers.nobelWinners = {}
+	themes[object.name].layers.nobelWinners.fill = object.dark
+		? white
+		: black
+
+	themes[object.name].layers.nobelQuote = {}
+	themes[object.name].layers.nobelQuote.fill = object.dark
+		? white
+		: black
 })
 
 module.exports = themes
