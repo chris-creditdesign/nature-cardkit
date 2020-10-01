@@ -129,8 +129,8 @@ module.exports = {
 		name: "Nobel headline",
 		type: "text",
 		text:
-			'2020 Nobel Prize in XXXXX',
-		fontSize: 72,
+			'2020 Nobel Prize\nin Physiology or Medicine',
+		fontSize: 68,
 		fontFamily:
 			"HardingText-Regular-Web",
 		get lineHeight() {
@@ -154,8 +154,8 @@ module.exports = {
 		name: "Nobel winners",
 		type: "text",
 		text:
-			'Winner Name & Winner Name &\nWinner Name & Winner Name',
-		fontSize: 44,
+			'Winner Name & Winner Name\n& Winner Name & Winner Name',
+		fontSize: 40,
 		fontFamily:
 			"HardingText-Regular-Web",
 		get lineHeight() {
@@ -193,6 +193,7 @@ module.exports = {
 		// letterSpacing: "-0.02em",
 		editable: {
 			text: true,
+			y: true,
 			fontSize: {
 				min: 18,
 				max: 36,

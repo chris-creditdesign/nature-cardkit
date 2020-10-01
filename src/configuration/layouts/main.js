@@ -51,11 +51,11 @@ const twitterCreditLeft = {
 		},
 		nobelWinners: {
 			x: twitterCard.marginSide,
-			y: twitterCard.marginTop + 150,
+			y: twitterCard.marginTop + 200,
 		},
 		nobelQuote: {
 			x: twitterCard.marginSide,
-			y: twitterCard.marginTop + 300,
+			y: twitterCard.marginTop + 330,
 		}
 	},
 }
