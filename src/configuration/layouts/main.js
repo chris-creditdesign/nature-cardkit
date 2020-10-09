@@ -27,9 +27,7 @@ const twitterCreditLeft = {
 			y: twitterCard.height - twitterCard.marginTop - 30,
 		},
 		circleLogo: {
-			transform: `translate(${twitterCard.width -
-				twitterCard.marginSide -
-				circleLogo.width}, ${twitterCard.marginTop})`,
+			transform: `translate(${twitterCard.marginSide}, ${twitterCard.marginTop})`,
 		},
 		natureLogo: {
 			transform: `translate(
