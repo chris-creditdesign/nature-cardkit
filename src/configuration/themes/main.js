@@ -25,6 +25,16 @@ fillColours.forEach((object, index, array) => {
 		? white
 		: black
 
+	themes[object.name].layers.subHead = {}
+	themes[object.name].layers.subHead.fill = object.dark
+		? white
+		: black
+
+	themes[object.name].layers.text = {}
+	themes[object.name].layers.text.fill = object.dark
+		? white
+		: black
+
 	themes[object.name].layers.circleLogo = {}
 	themes[object.name].layers.circleLogo.fill = object.dark
 		? white
@@ -42,21 +52,6 @@ fillColours.forEach((object, index, array) => {
 
 	themes[object.name].layers.topLine = {}
 	themes[object.name].layers.topLine.stroke = object.dark
-		? white
-		: black
-
-	themes[object.name].layers.nobelHeadline = {}
-	themes[object.name].layers.nobelHeadline.fill = object.dark
-		? white
-		: black
-
-	themes[object.name].layers.nobelWinners = {}
-	themes[object.name].layers.nobelWinners.fill = object.dark
-		? white
-		: black
-
-	themes[object.name].layers.nobelQuote = {}
-	themes[object.name].layers.nobelQuote.fill = object.dark
 		? white
 		: black
 })

@@ -22,6 +22,14 @@ const twitterCreditLeft = {
 			x: twitterCard.marginSide,
 			y: twitterCard.marginTop + 10,
 		},
+		subHead: {
+			x: twitterCard.marginSide,
+			y: twitterCard.marginTop + 200,
+		},
+		text: {
+			x: twitterCard.marginSide,
+			y: twitterCard.marginTop + 330,
+		},
 		credit: {
 			x: twitterCard.marginSide,
 			y: twitterCard.height - twitterCard.marginTop - 30,
@@ -43,18 +51,6 @@ const twitterCreditLeft = {
 			x2: twitterCard.width - twitterCard.marginSide,
 			y2:	twitterCard.marginTop,
 		},
-		nobelHeadline: {
-			x: twitterCard.marginSide,
-			y: twitterCard.marginTop + 10,
-		},
-		nobelWinners: {
-			x: twitterCard.marginSide,
-			y: twitterCard.marginTop + 200,
-		},
-		nobelQuote: {
-			x: twitterCard.marginSide,
-			y: twitterCard.marginTop + 330,
-		}
 	},
 }
 
